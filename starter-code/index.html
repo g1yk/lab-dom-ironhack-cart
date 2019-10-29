@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/style.css">
   <title>Ironhack cart</title>
   <script src="./js/index.js"></script>
 </head>
+
 <body>
   <h1>Ironhack Cart</h1>
 
@@ -24,21 +26,21 @@
         <td class="name">
           <span>IronBubble-body</span>
         </td>
-    
-        <td class="pu" >
+
+        <td class="pu">
           $<span class="price">15.00</span>
         </td>
-    
+
         <td class="qty">
           <label>
             <input type="number" class='quantity' value="2" min="0">
           </label>
         </td>
-    
+
         <td class="subtot" id='subtot'>
           $<span class="subtotal">0</span>
         </td>
-    
+
         <td class="rm">
           <button class="btn btn-delete">Delete</button>
         </td>
@@ -48,27 +50,55 @@
         <td class="name">
           <span>IronBubble-body</span>
         </td>
-    
-        <td class="pu" >
+
+        <td class="pu">
           $<span class="price">15.00</span>
         </td>
-    
+
         <td class="qty">
           <label>
             <input type="number" class='quantity' value="2" min="0">
           </label>
         </td>
-    
+
         <td class="subtot" id='subtot'>
           $<span class="subtotal">0</span>
         </td>
-    
+
         <td class="rm">
           <button class="btn btn-delete">Delete</button>
         </td>
       </tr>
     </tbody>
-    
+
+    <tbody class="create-row">
+      <tr class="create">
+        <td class="name">
+          <label>
+            <input type="name" class='name' value="" min="0">
+          </label>
+        </td>
+
+        <td class="pu">
+          <label>
+            <input type="price" class='price' value="" min="0">
+          </label>
+        </td>
+
+        <td class="qty">
+
+        </td>
+
+        <td class="subtot" id='subtot'>
+        </td>
+
+        <td class="rm">
+          <button class="btn btn-create">Create</button>
+        </td>
+      </tr>
+
+    </tbody>
+
 
     <!-- <tfoot>
       <tr class="new">
@@ -96,4 +126,5 @@
 
   <script type="text/javascript" src="./js/index.js"></script>
 </body>
+
 </html>

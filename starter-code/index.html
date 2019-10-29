@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/style.css">
   <title>Ironhack cart</title>
+  <script src="./js/index.js"></script>
 </head>
 <body>
   <h1>Ironhack Cart</h1>
@@ -21,21 +22,45 @@
     <tbody>
       <tr class="product">
         <td class="name">
-          <span>IronBubble-head</span>
+          <span>IronBubble-body</span>
         </td>
     
-        <td class="pu">
-          $<span>25.00</span>
+        <td class="pu" >
+          $<span class="price">15.00</span>
         </td>
     
         <td class="qty">
           <label>
-            <input type="number" value="0" min="0">
+            <input type="number" class='quantity' value="2" min="0">
           </label>
         </td>
     
-        <td class="subtot">
-          $<span>0</span>
+        <td class="subtot" id='subtot'>
+          $<span class="subtotal">0</span>
+        </td>
+    
+        <td class="rm">
+          <button class="btn btn-delete">Delete</button>
+        </td>
+      </tr>
+
+      <tr class="product">
+        <td class="name">
+          <span>IronBubble-body</span>
+        </td>
+    
+        <td class="pu" >
+          $<span class="price">15.00</span>
+        </td>
+    
+        <td class="qty">
+          <label>
+            <input type="number" class='quantity' value="2" min="0">
+          </label>
+        </td>
+    
+        <td class="subtot" id='subtot'>
+          $<span class="subtotal">0</span>
         </td>
     
         <td class="rm">
@@ -43,6 +68,8 @@
         </td>
       </tr>
     </tbody>
+    
+
     <!-- <tfoot>
       <tr class="new">
         <td>
